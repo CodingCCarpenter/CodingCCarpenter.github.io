@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #44cc00;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -152,8 +152,9 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #aaff80;
 		color: #000000;
+		
 	}
 
 	body, input, select, textarea {
@@ -2270,6 +2271,16 @@ input, select, textarea {
 				flex-shrink: 0;
 				padding: 1.5rem 0 0 1.5rem;
 				width: calc(100% - 1.5rem);
+				
+			}
+			form > .fields > .field > input {
+				background: #eeffe6;
+			}
+			form > .fields > .field > textarea{
+				background: #eeffe6;
+			}
+			.submit li input{
+				background: #eeffe6;
 			}
 
 				form > .fields > .field.half {
@@ -2621,7 +2632,7 @@ input, select, textarea {
 
 	a.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
-		box-shadow: inset 0 0 0 1px #47D3E5;
+		box-shadow: inset 0 0 0 1px #194d00;
 		color: #47D3E5;
 	}
 
@@ -2700,8 +2711,12 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5rem;
+			
 		}
-
+		ul.actions li a{
+			background: #eeffe6;
+			border: 1px solid #194d00;
+		}
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -2716,6 +2731,7 @@ input, select, textarea {
 					border-top: 0;
 					padding-top: 0;
 				}
+		
 
 	dl {
 		margin: 0 0 2rem 0;
@@ -2749,6 +2765,9 @@ input, select, textarea {
 
 	ul.alt li {
 		border-top-color: rgba(0, 0, 0, 0.2);
+	}
+	.notYet{
+		display: none;
 	}
 
 /* Actions */
@@ -8601,3 +8620,4 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+			
