@@ -8618,4 +8618,8 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-			
+.email{
+	text-decoration: none;
+	color: purple;
+	font-weight: 500;
+}
